@@ -1,11 +1,11 @@
 # Minecraft Bedrock Server
 
-[日本語版 README はこちら](https://github.com/TheRemote/MinecraftBedrockServer/blob/master/README_jp.md)
+[日本語版 README はこちら](https://github.com/tgrundle/MinecraftBedrockServer/blob/master/README_jp.md)
 
 Sets up a Minecraft Bedrock dedicated server on Ubuntu / Debian with options for automatic updates, backups and running automatically at startup.<br>
 View installation instructions at: https://jamesachambers.com/minecraft-bedrock-edition-ubuntu-dedicated-server-guide/<br>
 <br>
-If you are looking for a Docker containerized version of the Minecraft Bedrock Dedicated Server, it is available here:  <a href="https://github.com/TheRemote/Legendary-Bedrock-Container">https://github.com/TheRemote/Legendary-Bedrock-Container</a>
+If you are looking for a Docker containerized version of the Minecraft Bedrock Dedicated Server, it is available here:  <a href="https://github.com/tgrundle/Legendary-Bedrock-Container">https://github.com/tgrundle/Legendary-Bedrock-Container</a>
 
 <h2>Features</h2>
 <ul>
@@ -24,7 +24,7 @@ If you are looking for a Docker containerized version of the Minecraft Bedrock D
 
 <h2>Quick Installation Instuctions</h2>
 To run the installation type:<br>
-<pre>curl https://raw.githubusercontent.com/TheRemote/MinecraftBedrockServer/master/SetupMinecraft.sh | bash</pre>
+<pre>curl https://raw.githubusercontent.com/tgrundle/MinecraftBedrockServer/master/SetupMinecraft.sh | bash</pre>
 
 <h2>Installation Guide</h2>
 <a href="https://jamesachambers.com/minecraft-bedrock-edition-ubuntu-dedicated-server-guide/">Minecraft Bedrock Dedicated Server Script Installation / Configuration Guide</a>
@@ -97,7 +97,7 @@ See the following links:<br>
 <ul>
  <li>PayPal: 05jchambers@gmail.com</li>
  <li>Venmo: @JamesAChambers</li>
- <li>CashApp: $theremote</li>
+ <li>CashApp: $tgrundle</li>
  <li>Bitcoin (BTC): 3H6wkPnL1Kvne7dJQS8h7wB4vndB9KxZP7</li>
 </ul>
 
@@ -145,7 +145,7 @@ See the following links:<br>
     </ul>
   <li>July 24th 2022</li>
     <ul>
-        <li>Use libssl1.1 from repository instead of Ubuntu servers due to it changing every week or two (thanks theblujuice, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/129">issue #129)</a></li>
+        <li>Use libssl1.1 from repository instead of Ubuntu servers due to it changing every week or two (thanks theblujuice, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/129">issue #129)</a></li>
     </ul>
   <li>July 21st 2022</li>
     <ul>
@@ -167,7 +167,7 @@ See the following links:<br>
   <li>July 7th 2022</li>
     <ul>
         <li>Updated curl fallback installation URL to newest package</li>
-        <li>Punctuation / grammar fixes to README (thanks TheWilbo, <a href="https://github.com/TheRemote/MinecraftBedrockServer/pull/128">pull request #128)</a></li>
+        <li>Punctuation / grammar fixes to README (thanks TheWilbo, <a href="https://github.com/tgrundle/MinecraftBedrockServer/pull/128">pull request #128)</a></li>
     </ul>
   <li>June 11th 2022</li>
     <ul>
@@ -226,21 +226,21 @@ See the following links:<br>
   </ul>
   <li>March 19th 2022</li>
   <ul>
-    <li>Removed /sbin qualifier from route command as the PATH variable is now stored at the top of each script by SetupMinecraft.sh (thanks LookedPath, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/120">issue #120</a>)</li>
+    <li>Removed /sbin qualifier from route command as the PATH variable is now stored at the top of each script by SetupMinecraft.sh (thanks LookedPath, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/120">issue #120</a>)</li>
   </ul>
   <li>March 10th 2022</li>
   <ul>
-    <li>Add new allowlist.json to the unzip whitelist (thanks shaman79, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/118">issue #118</a>)</li>
-    <li>Added buy a coffe / donation information (thanks vandersonmota, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/117">issue #117</a>)</li>
+    <li>Add new allowlist.json to the unzip whitelist (thanks shaman79, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/118">issue #118</a>)</li>
+    <li>Added buy a coffe / donation information (thanks vandersonmota, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/117">issue #117</a>)</li>
   </ul>
   <li>November 2nd 2021</li>
   <ul>
-    <li>Fixed extra / in front of permissions fix script (thanks MarkBarbieri, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/109">issue #109</a>)</li>
+    <li>Fixed extra / in front of permissions fix script (thanks MarkBarbieri, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/109">issue #109</a>)</li>
   </ul>
   <li>October 31st 2021</li>
   <ul>
-    <li>Fixed missing sudo from fixpermissions line in start.sh (thanks MarkBarbieri, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/109">issue #109</a>)</li>
-    <li>Fixed missing -a parameter from /etc/sudoers file addition thanks MarkBarbieri, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/109">issue #109</a>)</li>
+    <li>Fixed missing sudo from fixpermissions line in start.sh (thanks MarkBarbieri, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/109">issue #109</a>)</li>
+    <li>Fixed missing -a parameter from /etc/sudoers file addition thanks MarkBarbieri, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/109">issue #109</a>)</li>
   </ul>
   <li>August 1st 2021</li>
   <ul>
@@ -279,20 +279,20 @@ See the following links:<br>
   </ul>
   <li>July 3rd 2021</li>
   <ul>
-    <li>Added Accept-Encoding: Identity header to curl as a very small % of users are getting an "Access Denied" error without this header (thanks titiscan, <a href="https://github.com/TheRemote/MinecraftBedrockServer/pull/95">pull request #95</a></li>
+    <li>Added Accept-Encoding: Identity header to curl as a very small % of users are getting an "Access Denied" error without this header (thanks titiscan, <a href="https://github.com/tgrundle/MinecraftBedrockServer/pull/95">pull request #95</a></li>
     <li>Added default language header to curl as non-english computers were getting an Access Denied error</li>
     <li>Script now checks for gawk being present in start.sh.  If it's not installed (likely due to reusing old SetupMinecraft.sh files) timestamps will be disabled.  This will prevent the server from failing to start.  This is avoided by not running an old copy of SetupMinecraft.sh!</li>
     <li>Removed broken screen -r command at the end of SetupMinecraft.sh as fixing it actually causes lockups -- instead now gives the command (screen -r) to pull up the Minecraft console.  Press Ctrl+A then Ctrl+D to hide the console once you're inside it.</li>
-    <li>Added code to prevent SetupMinecraft.sh from being ran as a local file (please use the new method of curl https://raw.githubusercontent.com/TheRemote/MinecraftBedrockServer/master/SetupMinecraft.sh | bash)</li>
+    <li>Added code to prevent SetupMinecraft.sh from being ran as a local file (please use the new method of curl https://raw.githubusercontent.com/tgrundle/MinecraftBedrockServer/master/SetupMinecraft.sh | bash)</li>
   </ul>
   <li>July 2nd 2021</li>
   <ul>
     <li>Improved dependency detection and installation</li>
     <li>Removed wget dependency</li>
     <li>Added gawk dependency -- this should not have any impact on most systems but on systems that use mawk by default this will fix server startup issues related to timestamps since mawk doesn't support strftime</li>
-    <li>Fixed stop.sh's -t countdown option (thanks da99Beast, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/76">issue #76</a>)</li>
+    <li>Fixed stop.sh's -t countdown option (thanks da99Beast, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/76">issue #76</a>)</li>
     <li>Fixed a nasty issue where the installation of libcurl3 over the top of libcurl4 was allowed in some configurations (like Ubuntu 18.04) and was clobbering curl (thanks Goretech)</li>
-    <li>Fixed an issue where empty folders could be created in the wrong location if start.sh was not ran from the server folder (thanks CobraBitYou, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/93">issue #93</a></li>
+    <li>Fixed an issue where empty folders could be created in the wrong location if start.sh was not ran from the server folder (thanks CobraBitYou, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/93">issue #93</a></li>
   </ul>
   <li>July 1st 2021</li>
   <ul>
@@ -302,9 +302,9 @@ See the following links:<br>
   <li>June 19th 2021</li>
   <ul>
     <li>Fixed timestamps to display on every line (thanks murkyl)</li>
-    <li>Added chmod command after unzip line to make bedrock_server executable for <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/22">issue #22</a> (thanks murkyl)</li>
-    <li>Merged <a href="https://github.com/TheRemote/MinecraftBedrockServer/pull/91">pull request #91</a> from starkey-01 to add prompt for an alternate installation directory.  This has been requested for a while so thanks starkey-01!</li>
-    <li>Merged <a href="https://github.com/TheRemote/MinecraftBedrockServer/pull/88">pull request #88</a> clarifying instructions to run script as non-root user (thanks sparagi!)</li>
+    <li>Added chmod command after unzip line to make bedrock_server executable for <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/22">issue #22</a> (thanks murkyl)</li>
+    <li>Merged <a href="https://github.com/tgrundle/MinecraftBedrockServer/pull/91">pull request #91</a> from starkey-01 to add prompt for an alternate installation directory.  This has been requested for a while so thanks starkey-01!</li>
+    <li>Merged <a href="https://github.com/tgrundle/MinecraftBedrockServer/pull/88">pull request #88</a> clarifying instructions to run script as non-root user (thanks sparagi!)</li>
   </ul>
   <li>May 23nd 2021</li>
   <ul>
@@ -322,7 +322,7 @@ See the following links:<br>
   <ul>
     <li>Added a safety check to prevent installing on 32 bit (i386 or i686) operating systems.  The official Bedrock dedicated server has only been released as a 64 bit (x86_64) binary and attempts at emulation on 32 bit have failed to yield any successful results!</li>
     <li>Added chmod +x bedrock_server to start.sh as updates seem to be removing executable permissions sometimes</li>
-    <li>Fix removing old backup directory context (thanks murkyl, <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/76">issue #76</a>)<li>
+    <li>Fix removing old backup directory context (thanks murkyl, <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/76">issue #76</a>)<li>
   </ul>
   <li>April 20th 2021</li>
   <ul>
@@ -366,9 +366,9 @@ See the following links:<br>
   <ul>
     <li>Resource packs (including ones that optionally enable RTX support) are working</li>
     <li>Guide available at <a href="https://jamesachambers.com/minecraft-bedrock-server-resource-pack-guide/" target="_blank" rel="noopener">https://jamesachambers.com/minecraft-bedrock-server-resource-pack-guide/</a></li>
-    <li>Added automatic backup rotation -- server keeps last 10 backups - thanks aghadjip <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/33">Issue 33</a></li>
-    <li>Added valid_known_packs to unzip whitelist to prevent resource packs from getting overwritten - thanks kmpoppe - <a href="https://github.com/TheRemote/MinecraftBedrockServer/pull/53">Pull Request 53</a></li>
-    <li>Create logs directory if it doesn't exist - thanks omkhar - <a href="https://github.com/TheRemote/MinecraftBedrockServer/pull/39">Pull Request 39</a></li>
+    <li>Added automatic backup rotation -- server keeps last 10 backups - thanks aghadjip <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/33">Issue 33</a></li>
+    <li>Added valid_known_packs to unzip whitelist to prevent resource packs from getting overwritten - thanks kmpoppe - <a href="https://github.com/tgrundle/MinecraftBedrockServer/pull/53">Pull Request 53</a></li>
+    <li>Create logs directory if it doesn't exist - thanks omkhar - <a href="https://github.com/tgrundle/MinecraftBedrockServer/pull/39">Pull Request 39</a></li>
   </ul>
   <li>December 13th 2020</li>
   <ul>
@@ -380,7 +380,7 @@ See the following links:<br>
   <ul>
     <li>Cleaned up documentation</li>
     <li>Added notice that the RTX beta version of Minecraft's dedicated server has not been released yet.  Support will be added the moment it is!</li>
-    <li>Added alpha software notice for Bedrock dedicated server per <a href="https://github.com/TheRemote/MinecraftBedrockServer/issues/34">issue 34</a></li>
+    <li>Added alpha software notice for Bedrock dedicated server per <a href="https://github.com/tgrundle/MinecraftBedrockServer/issues/34">issue 34</a></li>
   </ul>
   <li>November 17th 2020</li>
   <ul>

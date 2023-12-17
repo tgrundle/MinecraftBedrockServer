@@ -17,12 +17,18 @@ if [[ $(id -u) = 0 ]]; then
     exit 1
 fi
 
+if [[ "$USER" = "userxname" ]]; then
+  SCREEN_CMD="screen"
+else 
+  SCREEN_CMD="sudo -u userxname screen"
+fi
+
 # Randomizer for user agent
 RandNum=$((1 + $RANDOM % 5000))
 
 # Check if server is already started
-ScreenWipe=$(screen -wipe 2>&1)
-if screen -list | grep -q '\.servername\s'; then
+ScreenWipe=$($SCREEN_CMD -wipe 2>&1)
+if $SCREEN_CMD -list | grep -q '\.servername\s'; then
     echo "Server is already started!  Press screen -r servername to open it"
     exit 1
 fi
@@ -193,4 +199,4 @@ if command -v gawk &>/dev/null; then
 else
     echo "gawk application was not found -- timestamps will not be available in the logs.  Please delete SetupMinecraft.sh and run the script the new recommended way!"
 fi
-screen -L -Logfile logs/servername.$(date +%Y.%m.%d.%H.%M.%S).log -dmS servername /bin/bash -c "${BASH_CMD}"
+$SCREEN_CMD -L -Logfile logs/servername.$(date +%Y.%m.%d.%H.%M.%S).log -dmS servername /bin/bash -c "${BASH_CMD}"
